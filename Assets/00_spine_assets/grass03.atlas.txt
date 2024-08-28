@@ -1,0 +1,6 @@
+grass03.png
+size:173,362
+filter:Linear,Linear
+pma:true
+grass03
+bounds:2,2,169,358

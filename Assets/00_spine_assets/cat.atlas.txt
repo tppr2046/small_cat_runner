@@ -1,0 +1,17 @@
+cat.png
+size:440,325
+filter:Linear,Linear
+pma:true
+cat_body
+bounds:2,2,403,321
+cat_left_eye
+bounds:407,272,31,51
+cat_left_hair
+bounds:407,190,23,29
+cat_nose
+bounds:407,133,25,20
+rotate:90
+cat_right_eye
+bounds:407,221,30,49
+cat_right_hair
+bounds:407,160,22,28

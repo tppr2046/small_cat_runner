@@ -1,0 +1,6 @@
+grass02.png
+size:234,372
+filter:Linear,Linear
+pma:true
+grass02
+bounds:2,2,230,368
