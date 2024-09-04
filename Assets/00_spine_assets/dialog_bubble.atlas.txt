@@ -1,0 +1,11 @@
+dialog_bubble.png
+size:1179,580
+filter:Linear,Linear
+pma:true
+bubble_0
+bounds:935,73,241,156
+bubble_1
+bounds:935,231,347,242
+rotate:90
+bubble_2
+bounds:2,2,931,576

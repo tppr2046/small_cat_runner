@@ -1,0 +1,6 @@
+dialog.png
+size:937,656
+filter:Linear,Linear
+pma:true
+dialog
+bounds:2,2,933,652
