@@ -156,11 +156,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 210
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 280
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -192,11 +192,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 365
+      value: 185
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -140
+      value: -65
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -213,6 +213,10 @@ PrefabInstance:
     - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_Name
       value: card (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9019465427533066771, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: fsm.states.Array.data[4].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
@@ -265,11 +269,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 210
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 280
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -301,11 +305,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 365
+      value: 185
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -760
+      value: -625
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -322,6 +326,10 @@ PrefabInstance:
     - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_Name
       value: card (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9019465427533066771, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: fsm.states.Array.data[4].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
@@ -507,8 +515,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 300
-  m_fontSizeBase: 300
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -630,8 +638,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -68}
-  m_SizeDelta: {x: 400, y: 100}
+  m_AnchoredPosition: {x: 0, y: -37}
+  m_SizeDelta: {x: 400, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &379656071
 MonoBehaviour:
@@ -680,8 +688,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1906,7 +1914,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 1100}
-  m_SizeDelta: {x: 649.6559, y: 856.5527}
+  m_SizeDelta: {x: 387.45, y: 510.8369}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &596909988
 PrefabInstance:
@@ -1942,11 +1950,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 210
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 280
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1978,11 +1986,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1145
+      value: 185
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -140
+      value: -205
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1999,6 +2007,10 @@ PrefabInstance:
     - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_Name
       value: card (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9019465427533066771, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: fsm.states.Array.data[4].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
@@ -2101,8 +2113,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 300
-  m_fontSizeBase: 300
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2185,11 +2197,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 210
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 280
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2221,11 +2233,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 885
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -140
+      value: -205
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2242,6 +2254,10 @@ PrefabInstance:
     - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_Name
       value: card (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9019465427533066771, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: fsm.states.Array.data[4].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
@@ -2294,11 +2310,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 210
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 280
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2330,11 +2346,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 625
+      value: 315
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -760
+      value: -625
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2351,6 +2367,10 @@ PrefabInstance:
     - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_Name
       value: card (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9019465427533066771, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: fsm.states.Array.data[4].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
@@ -2413,11 +2433,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 210
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 280
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2449,11 +2469,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 625
+      value: 315
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -140
+      value: -65
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2470,6 +2490,10 @@ PrefabInstance:
     - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_Name
       value: card (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9019465427533066771, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: fsm.states.Array.data[4].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
@@ -2518,6 +2542,41 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
   m_PrefabInstance: {fileID: 1674489612}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &790827283
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 790827284}
+  m_Layer: 5
+  m_Name: card_deck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &790827284
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790827283}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1893492666}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &806968122
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2552,11 +2611,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 210
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 280
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2588,11 +2647,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 885
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -450
+      value: -485
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2609,6 +2668,10 @@ PrefabInstance:
     - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_Name
       value: card (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9019465427533066771, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: fsm.states.Array.data[4].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
@@ -2661,11 +2724,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 210
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 280
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2697,11 +2760,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 105
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -760
+      value: -625
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2718,6 +2781,10 @@ PrefabInstance:
     - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_Name
       value: card (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9019465427533066771, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: fsm.states.Array.data[4].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
@@ -2770,11 +2837,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 210
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 280
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2806,11 +2873,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1145
+      value: 185
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -760
+      value: -765
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2827,6 +2894,10 @@ PrefabInstance:
     - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_Name
       value: card (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9019465427533066771, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: fsm.states.Array.data[4].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
@@ -2889,11 +2960,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 210
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 280
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2925,11 +2996,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1145
+      value: 185
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -450
+      value: -485
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2946,6 +3017,10 @@ PrefabInstance:
     - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_Name
       value: card (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9019465427533066771, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: fsm.states.Array.data[4].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
@@ -3073,11 +3148,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 210
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 280
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3109,11 +3184,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1405
+      value: 315
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -140
+      value: -205
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3130,6 +3205,10 @@ PrefabInstance:
     - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_Name
       value: card (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9019465427533066771, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: fsm.states.Array.data[4].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
@@ -3320,11 +3399,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 210
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 280
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3356,11 +3435,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 105
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -450
+      value: -345
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3377,6 +3456,10 @@ PrefabInstance:
     - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_Name
       value: card (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9019465427533066771, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: fsm.states.Array.data[4].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
@@ -3429,11 +3512,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 210
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 280
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3465,11 +3548,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 885
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -760
+      value: -765
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3486,6 +3569,10 @@ PrefabInstance:
     - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_Name
       value: card (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9019465427533066771, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: fsm.states.Array.data[4].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
@@ -3558,11 +3645,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 210
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 280
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3594,11 +3681,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 625
+      value: 315
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -450
+      value: -345
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3615,6 +3702,10 @@ PrefabInstance:
     - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_Name
       value: card (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9019465427533066771, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: fsm.states.Array.data[4].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
@@ -3667,11 +3758,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 210
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 280
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3703,11 +3794,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1405
+      value: 315
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -760
+      value: -765
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3724,6 +3815,10 @@ PrefabInstance:
     - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_Name
       value: card (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9019465427533066771, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: fsm.states.Array.data[4].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
@@ -3796,11 +3891,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 210
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 280
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3832,11 +3927,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 365
+      value: 185
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -450
+      value: -345
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3853,6 +3948,10 @@ PrefabInstance:
     - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_Name
       value: card (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9019465427533066771, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: fsm.states.Array.data[4].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
@@ -4248,15 +4347,15 @@ RectTransform:
   m_GameObject: {fileID: 1634143668}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1565816401}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -55.370605, y: 404}
-  m_SizeDelta: {x: -1518.1976, y: -759.62805}
+  m_AnchoredPosition: {x: -2, y: -498}
+  m_SizeDelta: {x: -1518.1976, y: 2653.372}
   m_Pivot: {x: 0.51269305, y: 0.014126572}
 --- !u!114 &1634143670
 MonoBehaviour:
@@ -4291,7 +4390,7 @@ MonoBehaviour:
   timeScale: 1
   freeze: 0
   layoutScaleMode: 0
-  referenceSize: {x: 401.80237, y: 320.37195}
+  referenceSize: {x: -978.19763, y: 2653.372}
   pivotOffset: {x: 0, y: 0}
   referenceScale: 1
   layoutScale: 1
@@ -4340,6 +4439,7 @@ GameObject:
   - component: {fileID: 1663982721}
   - component: {fileID: 1663982723}
   - component: {fileID: 1663982722}
+  - component: {fileID: 1663982724}
   m_Layer: 5
   m_Name: tap any where
   m_TagString: Untagged
@@ -4361,9 +4461,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1565816401}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -360}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 152}
   m_SizeDelta: {x: 0, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1663982722
@@ -4413,8 +4513,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80
-  m_fontSizeBase: 80
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4463,6 +4563,144 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1663982720}
   m_CullTransparentMesh: 1
+--- !u!114 &1663982724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663982720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fsm:
+    dataVersion: 2
+    usedInTemplate: {fileID: 0}
+    name: FSM
+    startState: State 1
+    states:
+    - name: State 1
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 50
+        y: 100
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled: 
+        actionIsOpen: 
+        actionStartIndex: 
+        actionHashCodes: 
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
+    events: []
+    globalTransitions: []
+    variables:
+      floatVariables: []
+      intVariables: []
+      boolVariables: []
+      stringVariables: []
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables: []
+      objectVariables: []
+      materialVariables: []
+      textureVariables: []
+      arrayVariables: []
+      enumVariables: []
+      categories:
+      - 
+      variableCategoryIDs: 
+    description: 
+    docUrl: 
+    showStateLabel: 0
+    maxLoopCount: 0
+    watermark: 
+    password: 
+    locked: 0
+    manualUpdate: 0
+    outVariableIndices: 
+    keepDelayedEventsOnStateExit: 0
+    preprocessed: 0
+    ExposedEvents: []
+    OutputEvents: []
+    RestartOnEnable: 1
+    ResetVariablesOnEnable: 0
+    EnableDebugFlow: 0
+    EnableBreakpoints: 1
+    editorFlags: 225
+    activeStateName: 
+    mouseEvents: 0
+    handleLevelLoaded: 0
+    handleTriggerEnter2D: 0
+    handleTriggerExit2D: 0
+    handleTriggerStay2D: 0
+    handleCollisionEnter2D: 0
+    handleCollisionExit2D: 0
+    handleCollisionStay2D: 0
+    handleTriggerEnter: 0
+    handleTriggerExit: 0
+    handleTriggerStay: 0
+    handleCollisionEnter: 0
+    handleCollisionExit: 0
+    handleCollisionStay: 0
+    handleParticleCollision: 0
+    handleControllerColliderHit: 0
+    handleJointBreak: 0
+    handleJointBreak2D: 0
+    handleOnGUI: 0
+    handleFixedUpdate: 0
+    handleLateUpdate: 0
+    handleApplicationEvents: 0
+    handleUiEvents: 0
+    handleLegacyNetworking: 0
+    handleAnimatorMove: 0
+    handleAnimatorIK: 0
+  fsmTemplate: {fileID: 0}
+  eventHandlerComponentsAdded: 0
 --- !u!1001 &1674489612
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4497,11 +4735,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 210
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 280
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4533,11 +4771,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1405
+      value: 315
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -450
+      value: -485
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4554,6 +4792,10 @@ PrefabInstance:
     - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_Name
       value: card (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9019465427533066771, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: fsm.states.Array.data[4].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
@@ -4625,8 +4867,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -50}
-  m_SizeDelta: {x: -400, y: -160}
+  m_AnchoredPosition: {x: 0, y: -25}
+  m_SizeDelta: {x: -170, y: -110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1687024765
 MonoBehaviour:
@@ -4645,13 +4887,13 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 0
+  m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 210, y: 280}
-  m_Spacing: {x: 50, y: 30}
-  m_Constraint: 0
-  m_ConstraintCount: 2
+  m_CellSize: {x: 110, y: 130}
+  m_Spacing: {x: 20, y: 10}
+  m_Constraint: 1
+  m_ConstraintCount: 3
 --- !u!114 &1687024766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4671,13 +4913,13 @@ MonoBehaviour:
     startState: init
     states:
     - name: loop
-      description: 
-      colorIndex: 0
+      description: "\u7522\u751F\u724C\u5361\u8CC7\u6599"
+      colorIndex: 1
       position:
         serializedVersion: 2
         x: 69.328125
-        y: 171.99219
-        width: 101.333336
+        y: 347.9922
+        width: 101.66667
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -4696,7 +4938,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: ready
+        toState: array flag
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -4726,12 +4968,12 @@ MonoBehaviour:
         fsmEnumParams: []
         fsmFloatParams: []
         fsmIntParams:
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: round_card_count_now
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 9
+          value: 0
         - useVariable: 1
           name: big_index
           tooltip: 
@@ -4766,7 +5008,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 377.97656
-        y: 319.98438
+        y: 495.98438
         width: 101.333336
         height: 32
       isBreakpoint: 0
@@ -4915,7 +5157,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 57.984375
-        y: 414.65625
+        y: 590.65625
         width: 124
         height: 32
       isBreakpoint: 0
@@ -5003,7 +5245,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 359.3125
-        y: 137.96094
+        y: 313.96094
         width: 122.666664
         height: 32
       isBreakpoint: 0
@@ -5119,7 +5361,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 359.3203
-        y: 220
+        y: 396
         width: 129.33334
         height: 48
       isBreakpoint: 0
@@ -5209,7 +5451,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 565.3203
-        y: 231.33594
+        y: 407.33594
         width: 150.66666
         height: 32
       isBreakpoint: 0
@@ -5220,7 +5462,7 @@ MonoBehaviour:
           name: card get
           isSystemEvent: 0
           isGlobal: 0
-        toState: create card
+        toState: active card
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -5325,7 +5567,7 @@ MonoBehaviour:
           value: 0
         fsmBoolParams:
         - useVariable: 1
-          name: 
+          name: array_reset
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -5360,8 +5602,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 73.66406
-        y: 104.32031
+        x: 69.66406
+        y: 109.640625
         width: 100
         height: 32
       isBreakpoint: 0
@@ -5372,7 +5614,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: loop
+        toState: check round count
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -5380,16 +5622,12 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.GetOwner
-        - HutongGames.PlayMaker.Actions.ArrayShuffle
-        - HutongGames.PlayMaker.Actions.ArrayShuffle
         customNames:
         - 
-        - 
-        - 
-        actionEnabled: 010101
-        actionIsOpen: 010101
-        actionStartIndex: 000000000100000004000000
-        actionHashCodes: 5c004505a26c9201a26c9201
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 5c004505
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -5408,78 +5646,10 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
-        fsmArrayParams:
-        - useVariable: 1
-          name: card_array
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          type: 3
-          objectTypeName: UnityEngine.Object
-          floatValues: []
-          intValues: 
-          boolValues: 
-          stringValues: []
-          vector4Values: []
-          objectReferences:
-          - {fileID: 1619385086}
-          - {fileID: 747810724}
-          - {fileID: 777702827}
-          - {fileID: 1166133026}
-          - {fileID: 1571089578}
-          - {fileID: 408272093}
-          - {fileID: 1753497376}
-          - {fileID: 1478256745}
-          - {fileID: 1272543289}
-          - {fileID: 108460003}
-          - {fileID: 697485726}
-          - {fileID: 790098147}
-          - {fileID: 926072240}
-          - {fileID: 1699066416}
-          - {fileID: 1239162916}
-          - {fileID: 301574578}
-          - {fileID: 1464475871}
-          - {fileID: 330256324}
-        - useVariable: 1
-          name: id_array
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          type: 1
-          objectTypeName: UnityEngine.Object
-          floatValues: []
-          intValues: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b000000
-          boolValues: 
-          stringValues: []
-          vector4Values: []
-          objectReferences: []
+        fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams: []
-        fsmIntParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
+        fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -5492,24 +5662,18 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 13000000290000001000000010000000290000001000000010000000
+        paramDataType: 13000000
         paramName:
         - storeGameObject
-        - array
-        - startIndex
-        - shufflingRange
-        - array
-        - startIndex
-        - shufflingRange
-        paramDataPos: 00000000000000000000000001000000010000000200000003000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+        paramDataPos: 00000000
+        paramByteDataSize: 00000000
     - name: get card data
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 62.328125
-        y: 481
+        y: 657
         width: 113.333336
         height: 48
       isBreakpoint: 0
@@ -5699,7 +5863,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 333
-        y: 447.98438
+        y: 623.9844
         width: 100
         height: 32
       isBreakpoint: 0
@@ -5811,7 +5975,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 328.9922
-        y: 520.0078
+        y: 696.0078
         width: 100
         height: 32
       isBreakpoint: 0
@@ -5917,8 +6081,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 347.66406
-        y: 601.3281
+        x: 781.4844
+        y: 457.04688
         width: 115.333336
         height: 48
       isBreakpoint: 0
@@ -6010,8 +6174,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 522.9844
-        y: 679.0625
+        x: 956.8047
+        y: 534.78125
         width: 136.66666
         height: 32
       isBreakpoint: 0
@@ -6121,8 +6285,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 203
-        y: 695.3203
+        x: 636.8203
+        y: 551.03906
         width: 136.66666
         height: 32
       isBreakpoint: 0
@@ -6232,8 +6396,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 365.66406
-        y: 977.97656
+        x: 799.4844
+        y: 833.6953
         width: 100
         height: 32
       isBreakpoint: 0
@@ -6310,8 +6474,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 218.99219
-        y: 771.3281
+        x: 652.8125
+        y: 627.0469
         width: 136.66666
         height: 32
       isBreakpoint: 0
@@ -6433,8 +6597,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 533
-        y: 756.66406
+        x: 966.8203
+        y: 612.3828
         width: 136.66666
         height: 32
       isBreakpoint: 0
@@ -6453,12 +6617,14 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SendEventByName
+        - HutongGames.PlayMaker.Actions.Wait
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: ba7ea101
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000004000000
+        actionHashCodes: ba7ea10148c01101
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -6518,6 +6684,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 3
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -6525,27 +6697,31 @@ MonoBehaviour:
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams: []
-        byteData: 00
+        stringParams:
+        - CARD EFFECT OK
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1f000000120000000f00000001000000
+        paramDataType: 1f000000120000000f000000010000000f0000001700000001000000
         paramName:
         - eventTarget
         - sendEvent
         - delay
         - everyFrame
-        paramDataPos: 00000000000000000000000000000000
-        paramByteDataSize: 00000000000000000000000001000000
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 00000000000000000000000000000000010000000000000001000000
+        paramByteDataSize: 00000000000000000000000001000000000000000000000001000000
     - name: check match count
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 585.66406
-        y: 951.65625
+        x: 1019.4844
+        y: 807.375
         width: 146.66666
         height: 48
       isBreakpoint: 0
@@ -6565,7 +6741,7 @@ MonoBehaviour:
           name: win
           isSystemEvent: 0
           isGlobal: 0
-        toState: win
+        toState: add 1 round
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -6615,12 +6791,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: round_card_count_now
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 9
+          value: 0
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -6649,13 +6825,13 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 000000000100000000000000020000000300000000000000010000000200000001000000
         paramByteDataSize: 000000000000000001000000000000000000000000000000000000000000000001000000
-    - name: win
+    - name: 'FINAL WIN '
       description: 
-      colorIndex: 0
+      colorIndex: 6
       position:
         serializedVersion: 2
-        x: 592.3281
-        y: 1062.9922
+        x: 1322.6641
+        y: 511.1875
         width: 100
         height: 16
       isBreakpoint: 0
@@ -6756,8 +6932,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 585.9844
-        y: 855.3203
+        x: 1019.8047
+        y: 711.03906
         width: 137.33334
         height: 32
       isBreakpoint: 0
@@ -6917,8 +7093,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 593.3281
-        y: 813.3281
+        x: 1027.1484
+        y: 669.0469
         width: 100
         height: 32
       isBreakpoint: 0
@@ -7009,8 +7185,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 594.33594
-        y: 904.9922
+        x: 1028.1562
+        y: 760.71094
         width: 100
         height: 32
       isBreakpoint: 0
@@ -7032,7 +7208,7 @@ MonoBehaviour:
         customNames:
         - 
         actionEnabled: 01
-        actionIsOpen: 01
+        actionIsOpen: 00
         actionStartIndex: 00000000
         actionHashCodes: b2cf1000
         unityObjectParams: []
@@ -7092,6 +7268,871 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 0000000000000000010000000000000001000000
         paramByteDataSize: 0000000000000000000000000100000001000000
+    - name: check round count
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 59.992188
+        y: 176.65625
+        width: 143.33334
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: continue round
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: hide all card
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: round over
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: 'FINAL WIN '
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.IntCompare
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 09faa102
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: round_index
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 2
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - continue round
+        - continue round
+        - round over
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 100000001000000017000000170000001700000001000000
+        paramName:
+        - integer1
+        - integer2
+        - equal
+        - lessThan
+        - greaterThan
+        - everyFrame
+        paramDataPos: 000000000100000000000000010000000200000000000000
+        paramByteDataSize: 000000000000000000000000000000000000000001000000
+    - name: shuffle
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 365.98438
+        y: 228.97656
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: loop
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetIntValue
+        - HutongGames.PlayMaker.Actions.SetIntValue
+        - HutongGames.PlayMaker.Actions.SetGameObject
+        - HutongGames.PlayMaker.Actions.SetGameObject
+        - HutongGames.PlayMaker.Actions.SetBoolValue
+        - HutongGames.PlayMaker.Actions.ArrayShuffle
+        - HutongGames.PlayMaker.Actions.ArrayShuffle
+        - HutongGames.PlayMaker.Actions.ArrayGet
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 0101010101010101
+        actionIsOpen: 0101010101010101
+        actionStartIndex: 000000000300000006000000090000000c0000000f0000001200000015000000
+        actionHashCodes: 603dd905603dd9054d51cf044d51cf0427fbe103a26c9201a26c92016ba59301
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: card_0
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: card_1
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams:
+        - variableName: round_card_count_now
+          objectType: UnityEngine.Object
+          useVariable: 1
+          type: 1
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmArrayParams:
+        - useVariable: 1
+          name: card_array
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          type: 3
+          objectTypeName: UnityEngine.Object
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences:
+          - {fileID: 1619385086}
+          - {fileID: 747810724}
+          - {fileID: 777702827}
+          - {fileID: 1166133026}
+          - {fileID: 1571089578}
+          - {fileID: 408272093}
+          - {fileID: 1753497376}
+          - {fileID: 1478256745}
+          - {fileID: 1272543289}
+          - {fileID: 108460003}
+          - {fileID: 697485726}
+          - {fileID: 790098147}
+          - {fileID: 926072240}
+          - {fileID: 1699066416}
+          - {fileID: 1239162916}
+          - {fileID: 301574578}
+          - {fileID: 1464475871}
+          - {fileID: 330256324}
+        - useVariable: 1
+          name: id_array
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          type: 1
+          objectTypeName: UnityEngine.Object
+          floatValues: []
+          intValues: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b000000
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences: []
+        - useVariable: 1
+          name: round_card_count_array
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          type: 1
+          objectTypeName: UnityEngine.Object
+          floatValues: []
+          intValues: 030000000600000009000000
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: match_count
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: match_index
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: round_index
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams:
+        - useVariable: 1
+          name: array_reset
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        byteData: 000000000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1000000010000000010000001000000010000000010000001300000013000000010000001300000013000000010000001100000011000000010000002900000010000000100000002900000010000000100000002900000010000000270000000100000017000000
+        paramName:
+        - intVariable
+        - intValue
+        - everyFrame
+        - intVariable
+        - intValue
+        - everyFrame
+        - variable
+        - gameObject
+        - everyFrame
+        - variable
+        - gameObject
+        - everyFrame
+        - boolVariable
+        - boolValue
+        - everyFrame
+        - array
+        - startIndex
+        - shufflingRange
+        - array
+        - startIndex
+        - shufflingRange
+        - array
+        - index
+        - storeValue
+        - everyFrame
+        - indexOutOfRange
+        paramDataPos: 0000000001000000000000000200000003000000010000000000000001000000020000000200000003000000030000000000000001000000040000000000000004000000050000000100000006000000070000000200000008000000000000000500000000000000
+        paramByteDataSize: 0000000000000000010000000000000000000000010000000000000000000000010000000000000000000000010000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000
+    - name: active card
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 565.3203
+        y: 467.67188
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: create card
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.NextFrameEvent
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0001
+        actionStartIndex: 0000000005000000
+        actionHashCodes: b2cf100088611604
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: card_now
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - FINISHED
+        byteData: 0000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 140000001100000011000000010000000100000017000000
+        paramName:
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        - sendEvent
+        paramDataPos: 000000000000000001000000000000000100000000000000
+        paramByteDataSize: 000000000000000000000000010000000100000000000000
+    - name: add 1 round
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 1048
+        y: 889.3281
+        width: 101.333336
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: check round count
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.IntAdd
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 603dd905
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: round_index
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 100000001000000001000000
+        paramName:
+        - intVariable
+        - add
+        - everyFrame
+        paramDataPos: 000000000100000000000000
+        paramByteDataSize: 000000000000000001000000
+    - name: hide all card
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 366.66406
+        y: 149.66406
+        width: 138
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: continue get card
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: hide card now
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: shuffle
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ArrayGetNext
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 3df26a04
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams:
+        - variableName: card_now
+          objectType: UnityEngine.GameObject
+          useVariable: 1
+          type: 3
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmArrayParams:
+        - useVariable: 1
+          name: card_array
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          type: 3
+          objectTypeName: UnityEngine.Object
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences:
+          - {fileID: 1619385086}
+          - {fileID: 747810724}
+          - {fileID: 777702827}
+          - {fileID: 1166133026}
+          - {fileID: 1571089578}
+          - {fileID: 408272093}
+          - {fileID: 1753497376}
+          - {fileID: 1478256745}
+          - {fileID: 1272543289}
+          - {fileID: 108460003}
+          - {fileID: 697485726}
+          - {fileID: 790098147}
+          - {fileID: 926072240}
+          - {fileID: 1699066416}
+          - {fileID: 1239162916}
+          - {fileID: 301574578}
+          - {fileID: 1464475871}
+          - {fileID: 330256324}
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - continue get card
+        - FINISHED
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 2900000010000000100000001700000011000000170000002700000010000000
+        paramName:
+        - array
+        - startIndex
+        - endIndex
+        - loopEvent
+        - resetFlag
+        - finishedEvent
+        - result
+        - currentIndex
+        paramDataPos: 0000000000000000010000000000000000000000010000000000000002000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000
+    - name: hide card now
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 589.33594
+        y: 148.32812
+        width: 115.333336
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: hide all card
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 00
+        actionStartIndex: 00000000
+        actionHashCodes: b2cf1000
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: card_now
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000011000000110000000100000001000000
+        paramName:
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        paramDataPos: 0000000000000000010000000000000001000000
+        paramByteDataSize: 0000000000000000000000000100000001000000
+    - name: array flag
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 62
+        y: 480.9922
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: ready
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetBoolValue
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 27fbe103
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 1
+          name: array_reset
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 110000001100000001000000
+        paramName:
+        - boolVariable
+        - boolValue
+        - everyFrame
+        paramDataPos: 000000000100000000000000
+        paramByteDataSize: 000000000000000001000000
     events:
     - name: create card
       isSystemEvent: 0
@@ -7130,6 +8171,15 @@ MonoBehaviour:
       isSystemEvent: 0
       isGlobal: 0
     - name: SHOW CARD END
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: continue round
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: round over
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: continue get card
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions: []
@@ -7185,12 +8235,30 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       - useVariable: 1
+        name: round_index
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
         name: small_index
         tooltip: 
         showInInspector: 0
         networkSync: 0
         value: 0
-      boolVariables: []
+      - useVariable: 1
+        name: round_card_count_now
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      boolVariables:
+      - useVariable: 1
+        name: array_reset
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
       stringVariables: []
       vector2Variables: []
       vector3Variables: []
@@ -7264,10 +8332,23 @@ MonoBehaviour:
         stringValues: []
         vector4Values: []
         objectReferences: []
+      - useVariable: 1
+        name: round_card_count_array
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        type: 1
+        objectTypeName: UnityEngine.Object
+        floatValues: []
+        intValues: 030000000600000009000000
+        boolValues: 
+        stringValues: []
+        vector4Values: []
+        objectReferences: []
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -8071,8 +9152,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80
-  m_fontSizeBase: 80
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8184,7 +9265,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ReferenceResolution: {x: 540, y: 960}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -8227,6 +9308,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 790827284}
   - {fileID: 1687024764}
   - {fileID: 379656070}
   - {fileID: 593421533}
@@ -9502,11 +10584,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 210
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 280
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9538,11 +10620,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 105
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -140
+      value: -65
       objectReference: {fileID: 0}
     - target: {fileID: 7789927957046969841, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9559,6 +10641,10 @@ PrefabInstance:
     - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: m_Name
       value: card
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916854611508178517, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9019465427533066771, guid: bf55480bc7d74fc4c9d2c69e6076c8a2, type: 3}
       propertyPath: fsm.states.Array.data[4].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
