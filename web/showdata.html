@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>讀取外部 XML 檔案</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #output {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>讀取並顯示 XML 檔案內容</h1>
+    <button onclick="loadXML()">讀取 XML 檔案</button>
+    <div id="output">這裡會顯示 XML 內容</div>
+
+    <script>
+        function loadXML() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    displayXML(this);
+                }
+            };
+            // 指向 XML 檔案的位置
+            xhttp.open("GET", "data.xml", true);
+            xhttp.send();
+        }
+
+        function displayXML(xml) {
+            var xmlDoc = xml.responseXML;
+            var output = document.getElementById("output");
+            var content = "";
+            
+            // 假設 XML 的根元素下有多個 <item> 元素
+            var items = xmlDoc.getElementsByTagName("item");
+            for (var i = 0; i < items.length; i++) {
+                content += "<p>" + items[i].childNodes[0].nodeValue + "</p>";
+            }
+            
+            output.innerHTML = content;
+        }
+    </script>
+</body>
+</html>
