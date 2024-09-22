@@ -1,0 +1,9 @@
+box2.png
+size:307,254
+filter:Linear,Linear
+pma:true
+圖層 3
+bounds:221,2,250,84
+rotate:90
+圖層 4
+bounds:2,31,217,221

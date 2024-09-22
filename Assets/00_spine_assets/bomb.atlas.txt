@@ -1,0 +1,9 @@
+bomb.png
+size:284,195
+filter:Linear,Linear
+pma:true
+圖層 1
+bounds:2,2,191,213
+rotate:90
+圖層 2
+bounds:217,83,65,110
