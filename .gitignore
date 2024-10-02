@@ -71,3 +71,9 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+
+# playmaker dll need to track
+!/Assets/Playmaker/Editor/*.dll
+!/Assets/Playmaker/Editor/*.dll.mdb
+!/Assets/Plugings/*.dll
