@@ -31,7 +31,7 @@ namespace HutongGames.PlayMaker.Actions
 		public override void Reset()
 		{
 			timeStamp = null;
-			format = "yyyyMMddHHmmss";
+			format = "yyyyMMdd";
 		}
 
 		public void AddData(string timeStamp, bool win, int score)
