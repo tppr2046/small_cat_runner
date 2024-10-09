@@ -2219,7 +2219,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 23
+          value: 11
         - useVariable: 1
           name: tile.index.y
           tooltip: 
@@ -2326,13 +2326,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -13.75 + (tile.index.y * 1.25)
+          value: -12.5 + (tile.index.y * 2.5)
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -24 + row.add.x + (tile.index.x * 8)
+          value: -24 + row.add.x + (tile.index.x * 12)
         fsmObjectParams: []
         fsmVarParams:
         - variableName: tile_now
@@ -2810,7 +2810,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 7
+          value: 5
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -2892,7 +2892,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 4
+          value: 6
         fsmIntParams:
         - useVariable: 1
           name: column_count
@@ -2905,7 +2905,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 6
+          value: 4
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
