@@ -1,5 +1,6 @@
 #region Includes
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.PlayerLoop;
@@ -71,7 +72,19 @@ namespace TS.DoubleSlider
         protected virtual void UpdateLabel()
         {
             if (_label == null) { return; }
-            _label.Text = Value.ToString();
+            int numberValue = (int)Value;
+
+            string numberStr = numberValue.ToString("D6");
+
+            // 分解出年、月、日
+            int year = 2000 + int.Parse(numberStr.Substring(0, 2)); // 前兩位是年 (假設是2000年以後)
+            int month = int.Parse(numberStr.Substring(2, 2));       // 中間兩位是月
+            int day = int.Parse(numberStr.Substring(4, 2));         // 最後兩位是日
+
+            string date = $"{year}年{month}月{day}日";
+
+
+            _label.Text = date;
         }
     }
 }

@@ -12,4 +12,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c3b17f786b4bc94c98a190578bca35f, type: 3}
   m_Name: Miner_Counting
   m_EditorClassIdentifier: 
-  countingdata: []
+  countingdata:
+  - timeStamp: 241001
+    win: 0
+    score: 0
+  - timeStamp: 241002
+    win: 0
+    score: 0
+  - timeStamp: 241003
+    win: 0
+    score: 0
+  - timeStamp: 241005
+    win: 0
+    score: 0
+  - timeStamp: 241005
+    win: 0
+    score: 0
+  - timeStamp: 241005
+    win: 0
+    score: 0
+  - timeStamp: 241007
+    win: 0
+    score: 0
+  - timeStamp: 241007
+    win: 0
+    score: 0
+  - timeStamp: 241008
+    win: 0
+    score: 1
+  - timeStamp: 241008
+    win: 0
+    score: 1
+  - timeStamp: 241008
+    win: 0
+    score: 1
+  - timeStamp: 241009
+    win: 0
+    score: 1
+  - timeStamp: 241011
+    win: 0
+    score: 6
+  - timeStamp: 241011
+    win: 0
+    score: 12
+  - timeStamp: 241011
+    win: 0
+    score: 2
+  - timeStamp: 241011
+    win: 0
+    score: 11
