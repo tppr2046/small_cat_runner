@@ -5184,7 +5184,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 4
+          value: 6
         fsmIntParams:
         - useVariable: 1
           name: pop_tile_count_max
@@ -5209,7 +5209,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 7
+          value: 5
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -5296,7 +5296,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 3
+          value: 5
         fsmIntParams:
         - useVariable: 1
           name: pop_tile_count_max
@@ -5321,7 +5321,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 10
+          value: 6
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -5408,7 +5408,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 2
+          value: 4
         fsmIntParams:
         - useVariable: 1
           name: pop_tile_count_max
@@ -5433,7 +5433,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 21
+          value: 15
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
