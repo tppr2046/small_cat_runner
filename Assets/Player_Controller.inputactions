@@ -33,9 +33,9 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Data",
+                    "name": "data",
                     "type": "Button",
-                    "id": "3d4648a4-2a0f-4162-8259-acbac99eb16d",
+                    "id": "3313cf6f-e294-4dd2-8836-254c639c2c7e",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -287,12 +287,12 @@
                 },
                 {
                     "name": "",
-                    "id": "819bfb62-5297-439e-a4f6-343ada879b6d",
-                    "path": "<Keyboard>/rightBracket",
+                    "id": "ab055e06-57b7-4828-94cb-25cba28c15dc",
+                    "path": "",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Data",
+                    "action": "data",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
