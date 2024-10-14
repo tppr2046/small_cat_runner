@@ -1455,7 +1455,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {x: -15, y: 0, z: 0}
+          value: {x: -6, y: 0, z: 0}
         - useVariable: 1
           name: 
           tooltip: 
@@ -2362,7 +2362,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {x: 15, y: 0, z: 0}
+          value: {x: 6, y: 0, z: 0}
         - useVariable: 1
           name: 
           tooltip: 
