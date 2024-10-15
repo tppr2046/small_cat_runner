@@ -1609,13 +1609,13 @@ MonoBehaviour:
           networkSync: 0
           value: UPDATE COUNT
         fsmObjectParams:
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: data_ScriptableObject
           tooltip: 
           showInInspector: 0
           networkSync: 0
           typeName: DataScriptableObject
-          value: {fileID: 11400000, guid: 9ba1e370978221d4ab2a7054c5c7bdf9, type: 2}
+          value: {fileID: 0}
         - useVariable: 0
           name: 
           tooltip: 
@@ -2056,14 +2056,21 @@ MonoBehaviour:
       rectVariables: []
       quaternionVariables: []
       gameObjectVariables: []
-      objectVariables: []
+      objectVariables:
+      - useVariable: 1
+        name: data_ScriptableObject
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        typeName: DataScriptableObject
+        value: {fileID: 0}
       materialVariables: []
       textureVariables: []
       arrayVariables: []
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0

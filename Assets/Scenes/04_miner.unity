@@ -893,7 +893,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 2658946599103556021, guid: 8902c4112e30c9341b7a7fb68e946902, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 9f2022c46ec4fc54c93b887c931d56dd, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9bb655f0b877d2a4f93be1b0e192f37e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2783,6 +2783,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 56.17505
       objectReference: {fileID: 0}
+    - target: {fileID: 2125972485986576232, guid: 11b148cb13bb3cf4386101204ef7258a, type: 3}
+      propertyPath: fsm.variables.objectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 11400000, guid: 9ba1e370978221d4ab2a7054c5c7bdf9, type: 2}
     - target: {fileID: 3086984781442509450, guid: 11b148cb13bb3cf4386101204ef7258a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -9599,6 +9603,7 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
         - HutongGames.PlayMaker.Actions.SendEventByName
         - HutongGames.PlayMaker.Actions.SetCountData
         - HutongGames.PlayMaker.Actions.SendEventByName
@@ -9609,10 +9614,11 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 0101010101
-        actionIsOpen: 0001010101
-        actionStartIndex: 0000000005000000090000000f00000013000000
-        actionHashCodes: b2cf1000ba7ea1010f5e6000ba7ea10148c01101
+        - 
+        actionEnabled: 010101010101
+        actionIsOpen: 000001010101
+        actionStartIndex: 00000000050000000a0000000e0000001400000018000000
+        actionHashCodes: b2cf1000b2cf1000ba7ea1010f5e6000ba7ea10148c01101
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -9624,6 +9630,14 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 445090597}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 1806074671}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -9781,6 +9795,18 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
@@ -9788,13 +9814,18 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - FINISHED
-        byteData: 0000000000
+        byteData: 00000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000110000001100000001000000010000001f000000120000000f000000010000001800000010000000120000001200000011000000100000001f000000120000000f000000010000000f0000001700000001000000
+        paramDataType: 140000001100000011000000010000000100000014000000110000001100000001000000010000001f000000120000000f000000010000001800000010000000120000001200000011000000100000001f000000120000000f000000010000000f0000001700000001000000
         paramName:
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
         - gameObject
         - activate
         - recursive
@@ -9817,8 +9848,8 @@ MonoBehaviour:
         - time
         - finishEvent
         - realTime
-        paramDataPos: 00000000000000000100000000000000010000000000000000000000000000000200000000000000000000000100000002000000020000000100000001000000030000000100000003000000020000000000000004000000
-        paramByteDataSize: 00000000000000000000000001000000010000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000001000000
+        paramDataPos: 000000000000000001000000000000000100000001000000020000000300000002000000030000000000000000000000000000000400000000000000000000000100000002000000040000000100000001000000030000000100000005000000020000000000000006000000
+        paramByteDataSize: 000000000000000000000000010000000100000000000000000000000000000001000000010000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000001000000
     - name: wait to restart
       description: 
       colorIndex: 0

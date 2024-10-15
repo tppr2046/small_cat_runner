@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c3b17f786b4bc94c98a190578bca35f, type: 3}
+  m_Name: Card_Counting
+  m_EditorClassIdentifier: 
+  countingdata:
+  - timeStamp: 241001
+    win: 0
+    score: 0
+  - timeStamp: 241002
+    win: 0
+    score: 0
+  - timeStamp: 241003
+    win: 0
+    score: 0
+  - timeStamp: 241005
+    win: 0
+    score: 0
+  - timeStamp: 241005
+    win: 0
+    score: 0
+  - timeStamp: 241005
+    win: 0
+    score: 0
+  - timeStamp: 241007
+    win: 0
+    score: 0
+  - timeStamp: 241007
+    win: 0
+    score: 0
+  - timeStamp: 241008
+    win: 0
+    score: 1
+  - timeStamp: 241008
+    win: 0
+    score: 1
+  - timeStamp: 241008
+    win: 0
+    score: 1
+  - timeStamp: 241009
+    win: 0
+    score: 1
+  - timeStamp: 241011
+    win: 0
+    score: 6
+  - timeStamp: 241011
+    win: 0
+    score: 12
+  - timeStamp: 241011
+    win: 0
+    score: 2
+  - timeStamp: 241011
+    win: 0
+    score: 11

@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/04_miner_1.unity
-    guid: 04afff9b6d586b54c9a2d247a8ccac1f
+    path: Assets/Scenes/03_cards.unity
+    guid: 8ebf75e49baa3a14abd5192124b5708a
   m_configObjects: {}
