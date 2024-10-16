@@ -41,9 +41,9 @@ public class HeavyGunnerController : MonoBehaviour
         if (move.magnitude > 1)
             move.Normalize();
 
-        rig.velocity = new Vector3(move.x * Speed, move.y * Speed, 0);
+        rig.linearVelocity = new Vector3(move.x * Speed, move.y * Speed, 0);
 
-        animator.SetFloat("Speed" , rig.velocity.magnitude);
+        animator.SetFloat("Speed" , rig.linearVelocity.magnitude);
 
         //Rotation
         float AngleRad = Mathf.Atan2(LookAtAim.transform.position.y - transform.position.y, LookAtAim.transform.position.x - transform.position.x);
