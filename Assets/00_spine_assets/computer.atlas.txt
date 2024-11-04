@@ -1,0 +1,13 @@
+computer.png
+size:360,471
+filter:Linear,Linear
+pma:true
+eye
+bounds:2,301,236,91
+mark
+bounds:240,261,131,118
+rotate:90
+screen
+bounds:2,2,319,257
+shadow
+bounds:2,394,291,75

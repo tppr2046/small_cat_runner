@@ -1,0 +1,13 @@
+bomb3.png
+size:486,234
+filter:Linear,Linear
+pma:true
+bomb
+bounds:2,6,234,226
+fuse
+bounds:238,2,108,143
+mark
+bounds:348,15,130,117
+rotate:90
+shadow
+bounds:238,147,246,85

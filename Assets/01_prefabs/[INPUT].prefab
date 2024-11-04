@@ -85,15 +85,15 @@ MonoBehaviour:
   - m_PersistentCalls:
       m_Calls: []
     m_ActionId: a08a88ae-3917-4fe7-9c8e-1c3c3e589a39
-    m_ActionName: Player/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
+    m_ActionName: 'Player/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]'
   - m_PersistentCalls:
       m_Calls: []
     m_ActionId: f7123961-9052-48f1-9f3d-50e40c27b336
-    m_ActionName: Player/Fire1[/Keyboard/space]
+    m_ActionName: 'Player/Fire1[/Keyboard/space]'
   - m_PersistentCalls:
       m_Calls: []
     m_ActionId: 1aead984-b5d9-4c13-9b9c-2cb57c3328b7
-    m_ActionName: Player/any key[/Keyboard/anyKey]
+    m_ActionName: 'Player/any key[/Keyboard/anyKey]'
   - m_PersistentCalls:
       m_Calls: []
     m_ActionId: 3313cf6f-e294-4dd2-8836-254c639c2c7e
@@ -2531,7 +2531,7 @@ MonoBehaviour:
         vector4Values: []
         objectReferences:
         - {fileID: 6120146776530916940, guid: d84cecbfc33e05a4cae720491099cb23, type: 3}
-        - {fileID: 6120146776530916940, guid: 897a01bdec4628e489bd688d37663cd0, type: 3}
+        - {fileID: 6659666000579110262, guid: c2eaf26605621054cbc43a2591e6df6a, type: 3}
       enumVariables: []
       categories:
       - 

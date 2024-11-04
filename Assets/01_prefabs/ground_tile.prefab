@@ -221,9 +221,9 @@ ParticleSystem:
         m_RotationOrder: 4
     startColor:
       serializedVersion: 2
-      minMaxState: 2
+      minMaxState: 0
       minColor: {r: 1, g: 0.8150591, b: 0, a: 1}
-      maxColor: {r: 1, g: 0.09119487, b: 0.09119487, a: 1}
+      maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -1366,8 +1366,8 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.45098042, g: 0.15294118, b: 0.08235294, a: 1}
-        key1: {r: 0.98742133, g: 0.66445106, b: 0.11488847, a: 1}
+        key0: {r: 0.3773585, g: 0.3773585, b: 0.3773585, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
         key2: {r: 0, g: 0, b: 0, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
@@ -4832,6 +4832,9 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4923,8 +4926,10 @@ Transform:
   m_LocalScale: {x: 12, y: 10, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7531605121125689966}
-  - {fileID: 7775588062893132093}
+  - {fileID: 7627323766237814511}
+  - {fileID: 2113606596131585016}
+  - {fileID: 6793591935121360202}
+  - {fileID: 2538537597369598726}
   - {fileID: 4062137274691243312}
   - {fileID: 5178210102906658333}
   m_Father: {fileID: 0}
@@ -4946,6 +4951,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5004,8 +5012,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 50
-        y: 100
+        x: 61.335938
+        y: 102
         width: 100
         height: 48
       isBreakpoint: 0
@@ -5025,7 +5033,7 @@ MonoBehaviour:
           name: BOMB
           isSystemEvent: 0
           isGlobal: 0
-        toState: BOMB
+        toState: random bomb
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -5034,15 +5042,19 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.ActivateGameObject
         - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
         - HutongGames.PlayMaker.Actions.SetBoolValue
         customNames:
         - 
         - 
         - 
-        actionEnabled: 010101
-        actionIsOpen: 000001
-        actionStartIndex: 00000000050000000a000000
-        actionHashCodes: b2cf1000b2cf100027fbe103
+        - 
+        - 
+        actionEnabled: 0101010101
+        actionIsOpen: 0100000001
+        actionStartIndex: 00000000050000000a0000000f00000014000000
+        actionHashCodes: b2cf1000b2cf1000b2cf1000b2cf100027fbe103
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -5053,7 +5065,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 7820381212858632944}
+            value: {fileID: 7141708035339628669}
         - ownerOption: 1
           gameObject:
             useVariable: 0
@@ -5061,7 +5073,23 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 5123458307263109068}
+            value: {fileID: 855700074989921126}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 3916150701887086929}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 6624089176465656844}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -5076,6 +5104,30 @@ MonoBehaviour:
         fsmFloatParams: []
         fsmIntParams: []
         fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         - useVariable: 0
           name: 
           tooltip: 
@@ -5118,13 +5170,23 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0000000000
+        byteData: 000000000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000110000001100000001000000010000001400000011000000110000000100000001000000110000001100000001000000
+        paramDataType: 1400000011000000110000000100000001000000140000001100000011000000010000000100000014000000110000001100000001000000010000001400000011000000110000000100000001000000110000001100000001000000
         paramName:
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
         - gameObject
         - activate
         - recursive
@@ -5138,14 +5200,14 @@ MonoBehaviour:
         - boolVariable
         - boolValue
         - everyFrame
-        paramDataPos: 00000000000000000100000000000000010000000100000002000000030000000200000003000000040000000500000004000000
-        paramByteDataSize: 00000000000000000000000001000000010000000000000000000000000000000100000001000000000000000000000001000000
+        paramDataPos: 0000000000000000010000000000000001000000010000000200000003000000020000000300000002000000040000000500000004000000050000000300000006000000070000000600000007000000080000000900000008000000
+        paramByteDataSize: 0000000000000000000000000100000001000000000000000000000000000000010000000100000000000000000000000000000001000000010000000000000000000000000000000100000001000000000000000000000001000000
     - name: BOX
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 260.66406
+        x: 276.66406
         y: 85.33594
         width: 100
         height: 32
@@ -5183,7 +5245,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 7820381212858632944}
+            value: {fileID: 7141708035339628669}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -5250,8 +5312,232 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 225.33594
-        y: 164.66406
+        x: 560.65625
+        y: 149.32812
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: HIDE
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: init
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.SetBoolValue
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000005000000
+        actionHashCodes: b2cf100027fbe103
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 855700074989921126}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: have_item
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000011000000110000000100000001000000110000001100000001000000
+        paramName:
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        - boolVariable
+        - boolValue
+        - everyFrame
+        paramDataPos: 0000000000000000010000000000000001000000020000000300000002000000
+        paramByteDataSize: 0000000000000000000000000100000001000000000000000000000001000000
+    - name: random bomb
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 268.32812
+        y: 172.67188
+        width: 111.6
+        height: 64
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BOMB
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: BOMB
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: COMPUTER
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: computer
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: CARD
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: card
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SendRandomEvent
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 72e62e01
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - BOMB
+        - COMPUTER
+        - CARD
+        byteData: 
+        arrayParamSizes: 0300000003000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmEvent
+        - HutongGames.PlayMaker.FsmFloat
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0c0000001700000017000000170000000c0000000f0000000f0000000f0000000f000000
+        paramName:
+        - events
+        - 
+        - 
+        - 
+        - weights
+        - 
+        - 
+        - 
+        - delay
+        paramDataPos: 000000000000000001000000020000000100000000000000010000000200000003000000
+        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000000000000
+    - name: computer
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 556.3281
+        y: 224
         width: 100
         height: 32
       isBreakpoint: 0
@@ -5288,7 +5574,112 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 5123458307263109068}
+            value: {fileID: 3916150701887086929}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: have_item
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000011000000110000000100000001000000110000001100000001000000
+        paramName:
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        - boolVariable
+        - boolValue
+        - everyFrame
+        paramDataPos: 0000000000000000010000000000000001000000020000000300000002000000
+        paramByteDataSize: 0000000000000000000000000100000001000000000000000000000001000000
+    - name: card
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 542.33594
+        y: 298.67188
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: HIDE
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: init
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.SetBoolValue
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0001
+        actionStartIndex: 0000000005000000
+        actionHashCodes: b2cf100027fbe103
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 6624089176465656844}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -5358,6 +5749,12 @@ MonoBehaviour:
       isSystemEvent: 0
       isGlobal: 0
     - name: HIDE
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: COMPUTER
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: CARD
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions: []
@@ -5869,6 +6266,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -9170392329351598, guid: 8902c4112e30c9341b7a7fb68e946902, type: 2}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -6298,6 +6696,7 @@ BoxCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4534938150249233143}
   m_Enabled: 1
+  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -6321,7 +6720,8 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -6332,7 +6732,6 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
   m_Size: {x: 1, y: 0.5}
   m_EdgeRadius: 0
 --- !u!1 &7531979400360570179
@@ -6370,8 +6769,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0}
-  m_SizeDelta: {x: 2, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1.2, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &1818142116395816910
 MeshRenderer:
@@ -6390,10 +6789,13 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3422102794076356922, guid: 320fda037f53701499620c8bf133089c, type: 2}
+  - {fileID: -5064038233522485391, guid: fbf368447232bc94fb92b7187e152e94, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6437,15 +6839,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 320fda037f53701499620c8bf133089c, type: 2}
-  m_sharedMaterial: {fileID: -3422102794076356922, guid: 320fda037f53701499620c8bf133089c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fbf368447232bc94fb92b7187e152e94, type: 2}
+  m_sharedMaterial: {fileID: -5064038233522485391, guid: fbf368447232bc94fb92b7187e152e94, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
     rgba: 2902218
-  m_fontColor: {r: 0.7924528, g: 0.28409442, b: 0.1719472, a: 0}
+  m_fontColor: {r: 1, g: 0.6509804, b: 0.6509804, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -6462,12 +6864,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 1.2
+  m_fontSize: 2
   m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 0.1
-  m_fontSizeMax: 1.2
+  m_fontSizeMax: 2
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -6478,15 +6880,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 0
   m_isCullingEnabled: 0
@@ -7495,7 +7899,7 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 0
---- !u!1001 &357991604421703295
+--- !u!1001 &492865662869900265
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -7503,67 +7907,71 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6207846994195512810}
     m_Modifications:
-    - target: {fileID: 6714478949019473705, guid: 005b1014c1f5a5e488418c2c445627aa, type: 3}
+    - target: {fileID: 424444297877007412, guid: 7c3fe50b0d0b1e54c99d0c1d90a981ab, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 7525589953618869391, guid: 005b1014c1f5a5e488418c2c445627aa, type: 3}
+    - target: {fileID: 952243155130230927, guid: 7c3fe50b0d0b1e54c99d0c1d90a981ab, type: 3}
       propertyPath: m_Name
-      value: Spine Mecanim GameObject (box2)
+      value: Spine Mecanim GameObject (bomb3)
       objectReference: {fileID: 0}
-    - target: {fileID: 7525589953618869391, guid: 005b1014c1f5a5e488418c2c445627aa, type: 3}
+    - target: {fileID: 952243155130230927, guid: 7c3fe50b0d0b1e54c99d0c1d90a981ab, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7814437512014011409, guid: 005b1014c1f5a5e488418c2c445627aa, type: 3}
+    - target: {fileID: 1921428580492911521, guid: 7c3fe50b0d0b1e54c99d0c1d90a981ab, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921428580492911521, guid: 7c3fe50b0d0b1e54c99d0c1d90a981ab, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 0d8cd72142046fe4c81e33fe91a5ea91, type: 2}
+    - target: {fileID: 1982156362431426577, guid: 7c3fe50b0d0b1e54c99d0c1d90a981ab, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.175
       objectReference: {fileID: 0}
-    - target: {fileID: 7814437512014011409, guid: 005b1014c1f5a5e488418c2c445627aa, type: 3}
+    - target: {fileID: 1982156362431426577, guid: 7c3fe50b0d0b1e54c99d0c1d90a981ab, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.2
       objectReference: {fileID: 0}
-    - target: {fileID: 7814437512014011409, guid: 005b1014c1f5a5e488418c2c445627aa, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7814437512014011409, guid: 005b1014c1f5a5e488418c2c445627aa, type: 3}
+    - target: {fileID: 1982156362431426577, guid: 7c3fe50b0d0b1e54c99d0c1d90a981ab, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7814437512014011409, guid: 005b1014c1f5a5e488418c2c445627aa, type: 3}
+    - target: {fileID: 1982156362431426577, guid: 7c3fe50b0d0b1e54c99d0c1d90a981ab, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7814437512014011409, guid: 005b1014c1f5a5e488418c2c445627aa, type: 3}
+    - target: {fileID: 1982156362431426577, guid: 7c3fe50b0d0b1e54c99d0c1d90a981ab, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7814437512014011409, guid: 005b1014c1f5a5e488418c2c445627aa, type: 3}
+    - target: {fileID: 1982156362431426577, guid: 7c3fe50b0d0b1e54c99d0c1d90a981ab, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7814437512014011409, guid: 005b1014c1f5a5e488418c2c445627aa, type: 3}
+    - target: {fileID: 1982156362431426577, guid: 7c3fe50b0d0b1e54c99d0c1d90a981ab, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7814437512014011409, guid: 005b1014c1f5a5e488418c2c445627aa, type: 3}
+    - target: {fileID: 1982156362431426577, guid: 7c3fe50b0d0b1e54c99d0c1d90a981ab, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7814437512014011409, guid: 005b1014c1f5a5e488418c2c445627aa, type: 3}
+    - target: {fileID: 1982156362431426577, guid: 7c3fe50b0d0b1e54c99d0c1d90a981ab, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7814437512014011409, guid: 005b1014c1f5a5e488418c2c445627aa, type: 3}
+    - target: {fileID: 1982156362431426577, guid: 7c3fe50b0d0b1e54c99d0c1d90a981ab, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7814437512014011409, guid: 005b1014c1f5a5e488418c2c445627aa, type: 3}
+    - target: {fileID: 1982156362431426577, guid: 7c3fe50b0d0b1e54c99d0c1d90a981ab, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7814437512014011409, guid: 005b1014c1f5a5e488418c2c445627aa, type: 3}
+    - target: {fileID: 1982156362431426577, guid: 7c3fe50b0d0b1e54c99d0c1d90a981ab, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
@@ -7571,18 +7979,18 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 005b1014c1f5a5e488418c2c445627aa, type: 3}
---- !u!4 &7531605121125689966 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7814437512014011409, guid: 005b1014c1f5a5e488418c2c445627aa, type: 3}
-  m_PrefabInstance: {fileID: 357991604421703295}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &7820381212858632944 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: 7c3fe50b0d0b1e54c99d0c1d90a981ab, type: 3}
+--- !u!1 &855700074989921126 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 7525589953618869391, guid: 005b1014c1f5a5e488418c2c445627aa, type: 3}
-  m_PrefabInstance: {fileID: 357991604421703295}
+  m_CorrespondingSourceObject: {fileID: 952243155130230927, guid: 7c3fe50b0d0b1e54c99d0c1d90a981ab, type: 3}
+  m_PrefabInstance: {fileID: 492865662869900265}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &3482619856978510519
+--- !u!4 &2113606596131585016 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982156362431426577, guid: 7c3fe50b0d0b1e54c99d0c1d90a981ab, type: 3}
+  m_PrefabInstance: {fileID: 492865662869900265}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &903580315454122298
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -7590,82 +7998,260 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6207846994195512810}
     m_Modifications:
-    - target: {fileID: 2221263903777356460, guid: 24206c0df51cd3e4a9354bcbe986e074, type: 3}
-      propertyPath: m_Mesh
-      value: 
+    - target: {fileID: 2505769786391294044, guid: 04443bd183c168640836be02cedef16a, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 6610352329339063178, guid: 24206c0df51cd3e4a9354bcbe986e074, type: 3}
+    - target: {fileID: 2505769786391294044, guid: 04443bd183c168640836be02cedef16a, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 285da690f8b970c42ac31a301df19a76, type: 2}
+    - target: {fileID: 5966572813336947824, guid: 04443bd183c168640836be02cedef16a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.175
       objectReference: {fileID: 0}
-    - target: {fileID: 6610352329339063178, guid: 24206c0df51cd3e4a9354bcbe986e074, type: 3}
+    - target: {fileID: 5966572813336947824, guid: 04443bd183c168640836be02cedef16a, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.2
       objectReference: {fileID: 0}
-    - target: {fileID: 6610352329339063178, guid: 24206c0df51cd3e4a9354bcbe986e074, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6610352329339063178, guid: 24206c0df51cd3e4a9354bcbe986e074, type: 3}
+    - target: {fileID: 5966572813336947824, guid: 04443bd183c168640836be02cedef16a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6610352329339063178, guid: 24206c0df51cd3e4a9354bcbe986e074, type: 3}
+    - target: {fileID: 5966572813336947824, guid: 04443bd183c168640836be02cedef16a, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6610352329339063178, guid: 24206c0df51cd3e4a9354bcbe986e074, type: 3}
+    - target: {fileID: 5966572813336947824, guid: 04443bd183c168640836be02cedef16a, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6610352329339063178, guid: 24206c0df51cd3e4a9354bcbe986e074, type: 3}
+    - target: {fileID: 5966572813336947824, guid: 04443bd183c168640836be02cedef16a, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6610352329339063178, guid: 24206c0df51cd3e4a9354bcbe986e074, type: 3}
+    - target: {fileID: 5966572813336947824, guid: 04443bd183c168640836be02cedef16a, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6610352329339063178, guid: 24206c0df51cd3e4a9354bcbe986e074, type: 3}
+    - target: {fileID: 5966572813336947824, guid: 04443bd183c168640836be02cedef16a, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6610352329339063178, guid: 24206c0df51cd3e4a9354bcbe986e074, type: 3}
+    - target: {fileID: 5966572813336947824, guid: 04443bd183c168640836be02cedef16a, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6610352329339063178, guid: 24206c0df51cd3e4a9354bcbe986e074, type: 3}
+    - target: {fileID: 5966572813336947824, guid: 04443bd183c168640836be02cedef16a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6610352329339063178, guid: 24206c0df51cd3e4a9354bcbe986e074, type: 3}
+    - target: {fileID: 5966572813336947824, guid: 04443bd183c168640836be02cedef16a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6610352329339063178, guid: 24206c0df51cd3e4a9354bcbe986e074, type: 3}
+    - target: {fileID: 5966572813336947824, guid: 04443bd183c168640836be02cedef16a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8597070841477076347, guid: 24206c0df51cd3e4a9354bcbe986e074, type: 3}
+    - target: {fileID: 6298098814978057526, guid: 04443bd183c168640836be02cedef16a, type: 3}
       propertyPath: m_Name
-      value: Spine Mecanim GameObject (bomb)
+      value: Spine Mecanim GameObject (card)
       objectReference: {fileID: 0}
-    - target: {fileID: 8597070841477076347, guid: 24206c0df51cd3e4a9354bcbe986e074, type: 3}
+    - target: {fileID: 6298098814978057526, guid: 04443bd183c168640836be02cedef16a, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225235642136384226, guid: 04443bd183c168640836be02cedef16a, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 24206c0df51cd3e4a9354bcbe986e074, type: 3}
---- !u!1 &5123458307263109068 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: 04443bd183c168640836be02cedef16a, type: 3}
+--- !u!1 &6624089176465656844 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 8597070841477076347, guid: 24206c0df51cd3e4a9354bcbe986e074, type: 3}
-  m_PrefabInstance: {fileID: 3482619856978510519}
+  m_CorrespondingSourceObject: {fileID: 6298098814978057526, guid: 04443bd183c168640836be02cedef16a, type: 3}
+  m_PrefabInstance: {fileID: 903580315454122298}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &7775588062893132093 stripped
+--- !u!4 &6793591935121360202 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 6610352329339063178, guid: 24206c0df51cd3e4a9354bcbe986e074, type: 3}
-  m_PrefabInstance: {fileID: 3482619856978510519}
+  m_CorrespondingSourceObject: {fileID: 5966572813336947824, guid: 04443bd183c168640836be02cedef16a, type: 3}
+  m_PrefabInstance: {fileID: 903580315454122298}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2319399050970626185
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6207846994195512810}
+    m_Modifications:
+    - target: {fileID: 110573093981280660, guid: ef7b97a1e53d4ac4a8396e3d94f7b786, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 219158348389104527, guid: ef7b97a1e53d4ac4a8396e3d94f7b786, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.175
+      objectReference: {fileID: 0}
+    - target: {fileID: 219158348389104527, guid: ef7b97a1e53d4ac4a8396e3d94f7b786, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 219158348389104527, guid: ef7b97a1e53d4ac4a8396e3d94f7b786, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 219158348389104527, guid: ef7b97a1e53d4ac4a8396e3d94f7b786, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 219158348389104527, guid: ef7b97a1e53d4ac4a8396e3d94f7b786, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 219158348389104527, guid: ef7b97a1e53d4ac4a8396e3d94f7b786, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 219158348389104527, guid: ef7b97a1e53d4ac4a8396e3d94f7b786, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 219158348389104527, guid: ef7b97a1e53d4ac4a8396e3d94f7b786, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 219158348389104527, guid: ef7b97a1e53d4ac4a8396e3d94f7b786, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 219158348389104527, guid: ef7b97a1e53d4ac4a8396e3d94f7b786, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 219158348389104527, guid: ef7b97a1e53d4ac4a8396e3d94f7b786, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 219158348389104527, guid: ef7b97a1e53d4ac4a8396e3d94f7b786, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1614786162123807192, guid: ef7b97a1e53d4ac4a8396e3d94f7b786, type: 3}
+      propertyPath: m_Name
+      value: Spine Mecanim GameObject (computer)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1614786162123807192, guid: ef7b97a1e53d4ac4a8396e3d94f7b786, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8322614742948512928, guid: ef7b97a1e53d4ac4a8396e3d94f7b786, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8322614742948512928, guid: ef7b97a1e53d4ac4a8396e3d94f7b786, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 71cc093efcd393e4eb51af7824a5cf5a, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ef7b97a1e53d4ac4a8396e3d94f7b786, type: 3}
+--- !u!4 &2538537597369598726 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 219158348389104527, guid: ef7b97a1e53d4ac4a8396e3d94f7b786, type: 3}
+  m_PrefabInstance: {fileID: 2319399050970626185}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3916150701887086929 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1614786162123807192, guid: ef7b97a1e53d4ac4a8396e3d94f7b786, type: 3}
+  m_PrefabInstance: {fileID: 2319399050970626185}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5905871726440110732
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6207846994195512810}
+    m_Modifications:
+    - target: {fileID: 3668655329673276145, guid: 73179a2957f18934ebf88864bb7a14d0, type: 3}
+      propertyPath: m_Name
+      value: Spine Mecanim GameObject (box3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3668655329673276145, guid: 73179a2957f18934ebf88864bb7a14d0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047730590580180067, guid: 73179a2957f18934ebf88864bb7a14d0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047730590580180067, guid: 73179a2957f18934ebf88864bb7a14d0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047730590580180067, guid: 73179a2957f18934ebf88864bb7a14d0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047730590580180067, guid: 73179a2957f18934ebf88864bb7a14d0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047730590580180067, guid: 73179a2957f18934ebf88864bb7a14d0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047730590580180067, guid: 73179a2957f18934ebf88864bb7a14d0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047730590580180067, guid: 73179a2957f18934ebf88864bb7a14d0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047730590580180067, guid: 73179a2957f18934ebf88864bb7a14d0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047730590580180067, guid: 73179a2957f18934ebf88864bb7a14d0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047730590580180067, guid: 73179a2957f18934ebf88864bb7a14d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047730590580180067, guid: 73179a2957f18934ebf88864bb7a14d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047730590580180067, guid: 73179a2957f18934ebf88864bb7a14d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4711055690248335759, guid: 73179a2957f18934ebf88864bb7a14d0, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 73179a2957f18934ebf88864bb7a14d0, type: 3}
+--- !u!1 &7141708035339628669 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3668655329673276145, guid: 73179a2957f18934ebf88864bb7a14d0, type: 3}
+  m_PrefabInstance: {fileID: 5905871726440110732}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7627323766237814511 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4047730590580180067, guid: 73179a2957f18934ebf88864bb7a14d0, type: 3}
+  m_PrefabInstance: {fileID: 5905871726440110732}
   m_PrefabAsset: {fileID: 0}

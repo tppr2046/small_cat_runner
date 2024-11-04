@@ -1,0 +1,13 @@
+hedgehog.png
+size:539,366
+filter:Linear,Linear
+pma:true
+body
+bounds:2,2,484,362
+left_eye
+bounds:488,230,30,35
+nose
+bounds:488,307,49,57
+right_eye
+bounds:488,267,30,38
+offsets:0,0,30,39

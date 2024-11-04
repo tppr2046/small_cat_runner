@@ -1,0 +1,12 @@
+box3.png
+size:409,526
+filter:Linear,Linear
+pma:true
+lower
+bounds:2,104,420,210
+rotate:90
+shadow
+bounds:2,2,246,85
+upper
+bounds:214,89,435,193
+rotate:90
