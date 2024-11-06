@@ -373,7 +373,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: 0
+            value: 1
           fsmComponent: {fileID: 0}
         fsmPropertyParams: []
         layoutOptionParams: []
@@ -383,7 +383,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: SHOW MESSAGE
+          value: SHOW CARD
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -799,7 +799,16 @@ MonoBehaviour:
         - realTime
         paramDataPos: 00000000000000000000000001000000020000000000000001000000
         paramByteDataSize: 00000000000000000100000000000000000000000000000001000000
-    events: []
+    events:
+    - name: player hit
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: gone
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
     globalTransitions: []
     variables:
       floatVariables: []
