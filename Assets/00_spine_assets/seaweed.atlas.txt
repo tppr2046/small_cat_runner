@@ -1,0 +1,16 @@
+seaweed.png
+size:348,533
+filter:Linear,Linear
+pma:true
+seeweed1
+bounds:2,173,174,358
+seeweed2
+bounds:2,2,169,269
+rotate:90
+seeweed3
+bounds:178,254,136,277
+stone1
+bounds:178,178,152,74
+stone2
+bounds:273,69,107,73
+rotate:90

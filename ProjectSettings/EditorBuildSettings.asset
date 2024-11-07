@@ -9,3 +9,4 @@ EditorBuildSettings:
     path: Assets/Scenes/03_cards.unity
     guid: 8ebf75e49baa3a14abd5192124b5708a
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
