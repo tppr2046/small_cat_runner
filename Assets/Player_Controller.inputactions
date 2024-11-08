@@ -31,15 +31,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
-                },
-                {
-                    "name": "data",
-                    "type": "Button",
-                    "id": "3313cf6f-e294-4dd2-8836-254c639c2c7e",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -282,17 +273,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "any key",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "ab055e06-57b7-4828-94cb-25cba28c15dc",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "data",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
