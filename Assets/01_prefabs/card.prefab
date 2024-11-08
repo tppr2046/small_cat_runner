@@ -5627,7 +5627,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.2
+          value: 0.1
         - useVariable: 0
           name: 
           tooltip: 
@@ -5874,7 +5874,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.2
+          value: 0.1
         - useVariable: 0
           name: 
           tooltip: 
@@ -6171,7 +6171,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.2
+          value: 0.1
         - useVariable: 0
           name: 
           tooltip: 
@@ -6579,7 +6579,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.3
+          value: 0.1
         - useVariable: 0
           name: 
           tooltip: 
