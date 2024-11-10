@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cea032c45cc4e0d4f9c64cd1158af686
+guid: e28af8c4eb6430d41a3e5d6016e56fe9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,12 +123,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: web_show_cards_0
+      name: web_show_cards1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 1528
-        width: 387
+        width: 386
         height: 472
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -138,19 +138,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 280ea1ee0b145d544998d4199aba198a
-      internalID: -1923370601
+      spriteID: c3ef8f2f870dc544a834e59beccc7e4d
+      internalID: 1703555928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: web_show_cards_1
+      name: web_show_cards1_1
       rect:
         serializedVersion: 2
         x: 443
         y: 1528
-        width: 387
+        width: 386
         height: 472
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -160,19 +160,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e095c3279db7b9d4f90a9917785d2273
-      internalID: 1359469835
+      spriteID: 206ce1e0364175944b28ed82183ed1c8
+      internalID: 1616372700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: web_show_cards_2
+      name: web_show_cards1_2
       rect:
         serializedVersion: 2
-        x: 878
+        x: 879
         y: 1528
-        width: 387
+        width: 386
         height: 472
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -182,19 +182,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23109e5c0a6794d4e8744c75f5e1cf9c
-      internalID: -648387869
+      spriteID: 34f339699bd59fe45aeeb06c0fbab622
+      internalID: 449599607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: web_show_cards_3
+      name: web_show_cards1_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 1019
-        width: 387
+        y: 1020
+        width: 386
         height: 472
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -204,19 +204,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e133051bc757c0c4f8b463d1f6c1e6e3
-      internalID: 179284726
+      spriteID: c87205198ff7f8841887e74fd96d96c2
+      internalID: -672612852
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: web_show_cards_4
+      name: web_show_cards1_4
       rect:
         serializedVersion: 2
         x: 443
-        y: 1019
-        width: 387
+        y: 1020
+        width: 386
         height: 472
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -226,19 +226,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c59a69719aca3994499e539252a8744e
-      internalID: -424689420
+      spriteID: 95661f284941c4e488dc075644fd99df
+      internalID: 185991061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: web_show_cards_5
+      name: web_show_cards1_5
       rect:
         serializedVersion: 2
-        x: 878
-        y: 1019
-        width: 387
+        x: 879
+        y: 1020
+        width: 386
         height: 472
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -248,19 +248,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25a70492448ea0846aab6a49cec9ed01
-      internalID: -1628878948
+      spriteID: 8467a1aca68948e4f87f22135d6038f8
+      internalID: 740057860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: web_show_cards_6
+      name: web_show_cards1_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 510
-        width: 387
+        y: 511
+        width: 386
         height: 472
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -270,19 +270,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c37b2fffe20569b419fc839a849cda36
-      internalID: -1126653721
+      spriteID: b0818a3688c28c54ab81c88f73e4b4b0
+      internalID: -1998262054
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: web_show_cards_7
+      name: web_show_cards1_7
       rect:
         serializedVersion: 2
-        x: 443
-        y: 510
-        width: 387
+        x: 445
+        y: 512
+        width: 386
         height: 472
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -292,19 +292,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fd181778a0a754469f65c27a4c6e0f1
-      internalID: 731823851
+      spriteID: b1ee639dee5ffba448e05fa58b4da4d6
+      internalID: 1314731549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: web_show_cards_8
+      name: web_show_cards1_8
       rect:
         serializedVersion: 2
-        x: 878
+        x: 879
         y: 510
-        width: 387
+        width: 386
         height: 472
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -314,19 +314,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f70ca22234f4de4d8b8352598f3278c
-      internalID: 1211166311
+      spriteID: 86d6471310f5585479abb8aa1f68f70e
+      internalID: -1408404021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: web_show_cards_9
+      name: web_show_cards1_9
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 387
+        width: 386
         height: 472
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -336,19 +336,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ec61a3c537e95749b3c89e7eeb64ffd
-      internalID: -163218778
+      spriteID: d51ce91634a23b945aa0991d37e94cc2
+      internalID: -9872808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: web_show_cards_10
+      name: web_show_cards1_10
       rect:
         serializedVersion: 2
         x: 443
         y: 0
-        width: 387
+        width: 386
         height: 472
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -358,19 +358,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b3150d885f951a45b3de194f9c36d92
-      internalID: -1963866950
+      spriteID: ef85729b0c389ff438535d34b5ab1c3b
+      internalID: 677129298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: web_show_cards_11
+      name: web_show_cards1_11
       rect:
         serializedVersion: 2
-        x: 878
+        x: 879
         y: 0
-        width: 387
+        width: 386
         height: 472
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -380,8 +380,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a96dd2ecd2c25ab4b9c311bbdc8b5eb9
-      internalID: -614307323
+      spriteID: 6c90fe77dfc20f4448938848aaa58302
+      internalID: 1292159773
       vertices: []
       indices: 
       edges: []
@@ -390,7 +390,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 778be2268fbc23248bab966367cd450d
+    spriteID: 224fa147ee0300a4ca9553f85116a9aa
     internalID: 0
     vertices: []
     indices: 
@@ -400,18 +400,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      web_show_cards_0: -1923370601
-      web_show_cards_1: 1359469835
-      web_show_cards_10: -1963866950
-      web_show_cards_11: -614307323
-      web_show_cards_2: -648387869
-      web_show_cards_3: 179284726
-      web_show_cards_4: -424689420
-      web_show_cards_5: -1628878948
-      web_show_cards_6: -1126653721
-      web_show_cards_7: 731823851
-      web_show_cards_8: 1211166311
-      web_show_cards_9: -163218778
+      web_show_cards1_0: 1703555928
+      web_show_cards1_1: 1616372700
+      web_show_cards1_10: 677129298
+      web_show_cards1_11: 1292159773
+      web_show_cards1_2: 449599607
+      web_show_cards1_3: -672612852
+      web_show_cards1_4: 185991061
+      web_show_cards1_5: 740057860
+      web_show_cards1_6: -1998262054
+      web_show_cards1_7: 1314731549
+      web_show_cards1_8: -1408404021
+      web_show_cards1_9: -9872808
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

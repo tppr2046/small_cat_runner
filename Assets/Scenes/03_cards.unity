@@ -2143,18 +2143,18 @@ MonoBehaviour:
         stringValues: []
         vector4Values: []
         objectReferences:
-        - {fileID: -1923370601, guid: cea032c45cc4e0d4f9c64cd1158af686, type: 3}
-        - {fileID: 1359469835, guid: cea032c45cc4e0d4f9c64cd1158af686, type: 3}
-        - {fileID: -648387869, guid: cea032c45cc4e0d4f9c64cd1158af686, type: 3}
-        - {fileID: 179284726, guid: cea032c45cc4e0d4f9c64cd1158af686, type: 3}
-        - {fileID: -424689420, guid: cea032c45cc4e0d4f9c64cd1158af686, type: 3}
-        - {fileID: -1628878948, guid: cea032c45cc4e0d4f9c64cd1158af686, type: 3}
-        - {fileID: -1126653721, guid: cea032c45cc4e0d4f9c64cd1158af686, type: 3}
-        - {fileID: 731823851, guid: cea032c45cc4e0d4f9c64cd1158af686, type: 3}
-        - {fileID: 1211166311, guid: cea032c45cc4e0d4f9c64cd1158af686, type: 3}
-        - {fileID: -163218778, guid: cea032c45cc4e0d4f9c64cd1158af686, type: 3}
-        - {fileID: -1963866950, guid: cea032c45cc4e0d4f9c64cd1158af686, type: 3}
-        - {fileID: -614307323, guid: cea032c45cc4e0d4f9c64cd1158af686, type: 3}
+        - {fileID: 1703555928, guid: e28af8c4eb6430d41a3e5d6016e56fe9, type: 3}
+        - {fileID: 1616372700, guid: e28af8c4eb6430d41a3e5d6016e56fe9, type: 3}
+        - {fileID: 449599607, guid: e28af8c4eb6430d41a3e5d6016e56fe9, type: 3}
+        - {fileID: -672612852, guid: e28af8c4eb6430d41a3e5d6016e56fe9, type: 3}
+        - {fileID: 185991061, guid: e28af8c4eb6430d41a3e5d6016e56fe9, type: 3}
+        - {fileID: 740057860, guid: e28af8c4eb6430d41a3e5d6016e56fe9, type: 3}
+        - {fileID: -1998262054, guid: e28af8c4eb6430d41a3e5d6016e56fe9, type: 3}
+        - {fileID: 1314731549, guid: e28af8c4eb6430d41a3e5d6016e56fe9, type: 3}
+        - {fileID: -1408404021, guid: e28af8c4eb6430d41a3e5d6016e56fe9, type: 3}
+        - {fileID: -9872808, guid: e28af8c4eb6430d41a3e5d6016e56fe9, type: 3}
+        - {fileID: 677129298, guid: e28af8c4eb6430d41a3e5d6016e56fe9, type: 3}
+        - {fileID: 1292159773, guid: e28af8c4eb6430d41a3e5d6016e56fe9, type: 3}
       enumVariables: []
       categories:
       - 
@@ -10844,7 +10844,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1734677877
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12132,16 +12132,16 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: FSM
-    startState: State 1
+    startState: wait
     states:
-    - name: State 1
+    - name: wait to click
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 50
-        y: 100
-        width: 140
+        x: 60
+        y: 160.66406
+        width: 136.78
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -12157,15 +12157,25 @@ MonoBehaviour:
         linkTarget: 0
         colorIndex: 0
       actionData:
-        actionNames: []
-        customNames: []
-        actionEnabled: 
-        actionIsOpen: 
-        actionStartIndex: 
-        actionHashCodes: 
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 00
+        actionStartIndex: 00000000
+        actionHashCodes: b2cf1000
         unityObjectParams: []
         fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 1734677876}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -12179,29 +12189,46 @@ MonoBehaviour:
         fsmEnumParams: []
         fsmFloatParams: []
         fsmIntParams: []
-        fsmBoolParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 
-        paramName: []
-        paramDataPos: 
-        paramByteDataSize: 
+        paramDataType: 1400000011000000110000000100000001000000
+        paramName:
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        paramDataPos: 0000000000000000010000000000000001000000
+        paramByteDataSize: 0000000000000000000000000100000001000000
     - name: restart
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 268.66406
-        y: 98.671875
+        x: 278.66406
+        y: 159.33594
         width: 100
         height: 16
       isBreakpoint: 0
@@ -12249,8 +12276,84 @@ MonoBehaviour:
         paramName: []
         paramDataPos: 
         paramByteDataSize: 
+    - name: wait
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 77.328125
+        y: 108
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: wait to click
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.Wait
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 48c01101
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 5
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - FINISHED
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0f0000001700000001000000
+        paramName:
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 000000000000000000000000
+        paramByteDataSize: 000000000000000001000000
     events:
     - name: UI POINTER CLICK
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
     globalTransitions: []
