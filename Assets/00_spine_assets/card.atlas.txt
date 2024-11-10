@@ -1,13 +1,13 @@
 card.png
-size:522,271
+size:519,271
 filter:Linear,Linear
 pma:true
 card
 bounds:2,2,311,267
 hook
-bounds:402,17,85,120
+bounds:402,19,85,120
 mark
-bounds:402,139,130,118
+bounds:402,141,128,115
 rotate:90
 shadow
 bounds:315,24,245,85

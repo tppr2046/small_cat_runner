@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "M5SlYR/1Ceo", "spine": "4.2.36", "x": -162, "y": -15, "width": 311, "height": 325 },
+"skeleton": { "hash": "M5SlYR/1Ceo", "spine": "4.2.37", "x": -162, "y": -15, "width": 311, "height": 325 },
 "bones": [
 	{ "name": "root" },
 	{ "name": "card", "parent": "root", "length": 258.01, "rotation": 122.33, "x": 62.5, "y": 36.5 },
