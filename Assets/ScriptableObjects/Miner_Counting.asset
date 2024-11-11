@@ -13,51 +13,18 @@ MonoBehaviour:
   m_Name: Miner_Counting
   m_EditorClassIdentifier: 
   countingdata:
-  - timeStamp: 241001
+  - timeStamp: 241102
     win: 0
     score: 0
-  - timeStamp: 241002
+  - timeStamp: 241103
     win: 0
     score: 0
-  - timeStamp: 241003
+  - timeStamp: 241104
     win: 0
     score: 0
-  - timeStamp: 241005
+  - timeStamp: 241111
     win: 0
     score: 0
-  - timeStamp: 241005
+  - timeStamp: 241111
     win: 0
     score: 0
-  - timeStamp: 241005
-    win: 0
-    score: 0
-  - timeStamp: 241007
-    win: 0
-    score: 0
-  - timeStamp: 241007
-    win: 0
-    score: 0
-  - timeStamp: 241008
-    win: 0
-    score: 1
-  - timeStamp: 241008
-    win: 0
-    score: 1
-  - timeStamp: 241008
-    win: 0
-    score: 1
-  - timeStamp: 241009
-    win: 0
-    score: 1
-  - timeStamp: 241011
-    win: 0
-    score: 6
-  - timeStamp: 241011
-    win: 0
-    score: 12
-  - timeStamp: 241011
-    win: 0
-    score: 2
-  - timeStamp: 241011
-    win: 0
-    score: 11
